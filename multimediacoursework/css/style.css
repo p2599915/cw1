@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 5%;
+}
+h1 {
+  color: #C21807;
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+  color: #34207E ;
+}
+h3 {
+  font-size: 1.5em;
+}
+a {
+  font-size: 2em;
+
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.cast{
+  display:f flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.cast p{
+  color: white;
+  text-align: center;
+
+}
+.cast img{
+  vertical-align: middle;
+  max-width: 300px;
+  float: left;
+}
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+footer {
+margin: 25px;
+}
+img {
+  vertical-align: middle;
+}
