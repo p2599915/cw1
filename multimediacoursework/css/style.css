@@ -58,6 +58,7 @@ section::after {
 footer {
 margin: 25px;
 }
+/*style for the image in the about page*/
 img {
   vertical-align: middle;
 }
