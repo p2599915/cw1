@@ -1,39 +1,69 @@
 <!DOCTYPE html>
+<!-- start of html file -->
 <html lang="en" dir="ltr">
+<!-- Language set to English-->
   <head>
+    <!-- container for metadata- metadata is data about the html file-->
     <meta charset="utf-8">
+    <!-- Enables the website to be viewed on mobiles-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- allows the website to fit any screen size-->
     <title>Spider-Man: Into the Spider-Verse</title>
+    <!-- defines the title of the document- title of the website- it is shown in the browsers title bar or in the pages tab-->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-
+    <!--Links the style sheet to the pages on the website- style atrributes will be added across all pages-->
+    <!-- href attribute specifies the URL of the page the link goes to/ indicates the links destination-->
+    <!-- rel attribute repecifies the relationship between the current document and the linked document-->
   </head>
 
   <body>
+      <!-- defines the documents body-->
   <div>
+    <!--devision or a section in the html document- is used as a container for html elements-->
     <h1> Spider-Man: Into the Spider-Verse</h1>
+    <!--h1 defines the most important heading- represents the main heading/ subject for the page-->
   <nav>
     <a href="About.html">About</a>
     <a href="Cast.html">Cast</a>
+    <!--<nav> defines a set of navigation links-this adds a menu to naviagte the websites pages-->
+    <!--<a> crates a hyperlink- is used to link pages together-->
+    <!--href attribute specifies the URL of the page the link goes to/ indicates the links destination-->
   </nav>
   </div>
   <div>
     <div>
       <img src="img/spidermangif.gif" alt="Spider-Man Poster" width="50%">
+      <!-- img tag is used to embed an image- in this case a GIF-->
+      <!--scr specifies the path to the image-->
+      <!--alt specifies an alternate text for the image if it cannot be displayed by the browser-->
+      <!--width specifies the width of the image-->
       <h2> Synopsis </h2>
+    <!--adds a subheading (h2- second most important heading)-->
       <p>Brooklyn teenager, Miles Morales, juggles adjusting and fitting in at his new rich-kid boarding school and struggling to live up to his fathers’ exceptions, all while trying to navigate and understand his new-found spider-like abilities after being bitten by a radioactive spider. After witnessing the death of New York’s favourite hero, Spider-Man (Peter Parker), the film’s story follows Miles Morales as he takes on the responsibility of protecting the city and becoming New York’s new superhero, to honour Spider-Man’s legacy. To save the city from Kingpin and his “Super-Collider”, Miles joins other spider-like individuals from various parallel universes in the multiverse called the “Spider-Verse” to stop the threat from all alternate realities. With their help Miles uncovers his true abilities and is able to create a new drive to destroy the “Super-Collider”, as he accidentally damaged the one Spider-Man gave him.</p>
+      <!-- Adds a paragraph to the page (that can be styled)-->
     </div>
     <div>
     <h2>Spider-Man: Into the Spider-verse trailer</h2>
+    <!--adds a subheading (h2- second most important heading)-->
 <video width="80%"
 poster="img/spiderman_poster.jpeg" controls>
+<!--adds a video, width for the video, an image for the video, and the controls attribute adds video controls, like play, pause, and volume -->
 <source src="video/spiderman-trailer2.mp4" type="video/mp4">
 <source src="video/spiderman-trailer2.ogv" type="video/ogv">
 <source src="video/spiderman-trailer2.webm" type="video/webm">
-<p>Your browser does not support the video element. Please click <a href='video/spiderman-trailer.mp4'>here</a> to download an mp4 of the video.</p>
+  <!-- locates the video within the files and what type of video it is- more than one video type is added incase the browser cannot load a video type-->
+  <!-- source- allows you to specify alternate audio files which the browser may choose from, based on browser support-->
+  <!--scr specifies the path to the video-->
+<p>Your browser does not support the video element. Please click <a href='video/spiderman-trailer.mp4'>here<</a> to download an mp4 of the video.</p>
+<!--used to give a link to the video if it the video cannot load in the browser-->
 </video>
 </div>
 <div>
     <footer>Multimedia Tech1015 Coursework 1 by Wioletta Bartman P2599915</footer>
+    <!-- adds footer to the page-->
 </div>
+<!-- end of division-->
   </body>
+  <!-- end of body-->
 </html>
+<!-- end of html file-->
