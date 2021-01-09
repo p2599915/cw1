@@ -1,25 +1,31 @@
+/*start css external style sheet*/
+/*an external style sheet is used to change the look of an entire website by changing just one file*/
+/*style for anything in the body*/
 body {
   text-align: center;
   background-color: black;
   color: white;
   margin: 5%;
 }
+/*style for the h1 headings*/
 h1 {
   color: #C21807;
   font-size: 3em;
 }
+/*style for the h2 headings*/
 h2 {
   font-size: 2em;
   color: #34207E ;
 }
+/*style for the h3 headings*/
 h3 {
   font-size: 1.5em;
 }
+/*style for the menu*/
 a {
   font-size: 2em;
-
 }
-
+/*style for the paragraphs/ text*/
 p {
   margin-left: 10%;
   margin-right: 10%;
@@ -30,21 +36,25 @@ p {
   justify-content: space-around;
   align-content: space-around;
 }
+/*style for the paragraphs on the cast page*/
 .cast p{
   color: white;
   text-align: center;
 
 }
+/*style for the images on the cast page*/
 .cast img{
   vertical-align: middle;
   max-width: 300px;
   float: left;
 }
+/*style for the section*/
 section::after {
   content: "";
   display: block;
   clear: both;
 }
+/*style for the footer*/
 footer {
 margin: 25px;
 }
